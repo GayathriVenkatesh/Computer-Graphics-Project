@@ -1,0 +1,22 @@
+{
+	"name": "cg-2021",
+	"version": "1.0.0",
+	"description": "WebGL Samples",
+	"main": "index.html",
+	"scripts": {
+		"prestart": "npm install",
+		"start": "gulp browser-sync"
+	},
+	"author": "AT",
+	"license": "ISC",
+	"devDependencies": {
+		"browser-sync": "^2.26.13",
+		"gulp": "^4.0.2",
+		"http-server": "^0.12.3"
+	},
+	"dependencies": {
+		"dat.gui": "^0.7.7",
+		"threex": "^1.0.0",
+		"threex-domevents": "^1.0.0"
+	}
+}
